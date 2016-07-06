@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51EB0EC1BC6DF8D004266E7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B51EB0EB1BC6DF8D004266E7 /* AppDelegate.mm */; };
+		B51EB0EE1BC6DF8D004266E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B51EB0ED1BC6DF8D004266E7 /* main.m */; };
+		B51EB0F01BC6DF8D004266E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51EB0EF1BC6DF8D004266E7 /* Images.xcassets */; };
+		B51EB0F31BC6DF8D004266E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51EB0F11BC6DF8D004266E7 /* MainMenu.xib */; };
+		B51EB0FF1BC6DF8D004266E7 /* CheckXattrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51EB0FE1BC6DF8D004266E7 /* CheckXattrTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51EB0F91BC6DF8D004266E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51EB0DD1BC6DF8D004266E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51EB0E41BC6DF8D004266E7;
+			remoteInfo = CheckXattr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51EB0E51BC6DF8D004266E7 /* CheckXattr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckXattr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51EB0E91BC6DF8D004266E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51EB0EA1BC6DF8D004266E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B51EB0EB1BC6DF8D004266E7 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		B51EB0ED1BC6DF8D004266E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B51EB0EF1BC6DF8D004266E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B51EB0F21BC6DF8D004266E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B51EB0F81BC6DF8D004266E7 /* CheckXattrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckXattrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51EB0FD1BC6DF8D004266E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51EB0FE1BC6DF8D004266E7 /* CheckXattrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckXattrTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51EB0E21BC6DF8D004266E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51EB0F51BC6DF8D004266E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51EB0DC1BC6DF8D004266E7 = {
+			isa = PBXGroup;
+			children = (
+				B51EB0E71BC6DF8D004266E7 /* CheckXattr */,
+				B51EB0FB1BC6DF8D004266E7 /* CheckXattrTests */,
+				B51EB0E61BC6DF8D004266E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51EB0E61BC6DF8D004266E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51EB0E51BC6DF8D004266E7 /* CheckXattr.app */,
+				B51EB0F81BC6DF8D004266E7 /* CheckXattrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51EB0E71BC6DF8D004266E7 /* CheckXattr */ = {
+			isa = PBXGroup;
+			children = (
+				B51EB0EA1BC6DF8D004266E7 /* AppDelegate.h */,
+				B51EB0EB1BC6DF8D004266E7 /* AppDelegate.mm */,
+				B51EB0EF1BC6DF8D004266E7 /* Images.xcassets */,
+				B51EB0F11BC6DF8D004266E7 /* MainMenu.xib */,
+				B51EB0E81BC6DF8D004266E7 /* Supporting Files */,
+			);
+			path = CheckXattr;
+			sourceTree = "<group>";
+		};
+		B51EB0E81BC6DF8D004266E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51EB0E91BC6DF8D004266E7 /* Info.plist */,
+				B51EB0ED1BC6DF8D004266E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51EB0FB1BC6DF8D004266E7 /* CheckXattrTests */ = {
+			isa = PBXGroup;
+			children = (
+				B51EB0FE1BC6DF8D004266E7 /* CheckXattrTests.m */,
+				B51EB0FC1BC6DF8D004266E7 /* Supporting Files */,
+			);
+			path = CheckXattrTests;
+			sourceTree = "<group>";
+		};
+		B51EB0FC1BC6DF8D004266E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51EB0FD1BC6DF8D004266E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51EB0E41BC6DF8D004266E7 /* CheckXattr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51EB1021BC6DF8D004266E7 /* Build configuration list for PBXNativeTarget "CheckXattr" */;
+			buildPhases = (
+				B51EB0E11BC6DF8D004266E7 /* Sources */,
+				B51EB0E21BC6DF8D004266E7 /* Frameworks */,
+				B51EB0E31BC6DF8D004266E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckXattr;
+			productName = CheckXattr;
+			productReference = B51EB0E51BC6DF8D004266E7 /* CheckXattr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51EB0F71BC6DF8D004266E7 /* CheckXattrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51EB1051BC6DF8D004266E7 /* Build configuration list for PBXNativeTarget "CheckXattrTests" */;
+			buildPhases = (
+				B51EB0F41BC6DF8D004266E7 /* Sources */,
+				B51EB0F51BC6DF8D004266E7 /* Frameworks */,
+				B51EB0F61BC6DF8D004266E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51EB0FA1BC6DF8D004266E7 /* PBXTargetDependency */,
+			);
+			name = CheckXattrTests;
+			productName = CheckXattrTests;
+			productReference = B51EB0F81BC6DF8D004266E7 /* CheckXattrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51EB0DD1BC6DF8D004266E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Soaurabh Kakkar";
+				TargetAttributes = {
+					B51EB0E41BC6DF8D004266E7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B51EB0F71BC6DF8D004266E7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B51EB0E41BC6DF8D004266E7;
+					};
+				};
+			};
+			buildConfigurationList = B51EB0E01BC6DF8D004266E7 /* Build configuration list for PBXProject "CheckXattr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B51EB0DC1BC6DF8D004266E7;
+			productRefGroup = B51EB0E61BC6DF8D004266E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51EB0E41BC6DF8D004266E7 /* CheckXattr */,
+				B51EB0F71BC6DF8D004266E7 /* CheckXattrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51EB0E31BC6DF8D004266E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51EB0F01BC6DF8D004266E7 /* Images.xcassets in Resources */,
+				B51EB0F31BC6DF8D004266E7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51EB0F61BC6DF8D004266E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51EB0E11BC6DF8D004266E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51EB0EE1BC6DF8D004266E7 /* main.m in Sources */,
+				B51EB0EC1BC6DF8D004266E7 /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51EB0F41BC6DF8D004266E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51EB0FF1BC6DF8D004266E7 /* CheckXattrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51EB0FA1BC6DF8D004266E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51EB0E41BC6DF8D004266E7 /* CheckXattr */;
+			targetProxy = B51EB0F91BC6DF8D004266E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51EB0F11BC6DF8D004266E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51EB0F21BC6DF8D004266E7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51EB1001BC6DF8D004266E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B51EB1011BC6DF8D004266E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B51EB1031BC6DF8D004266E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckXattr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B51EB1041BC6DF8D004266E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckXattr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B51EB1061BC6DF8D004266E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CheckXattrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckXattr.app/Contents/MacOS/CheckXattr";
+			};
+			name = Debug;
+		};
+		B51EB1071BC6DF8D004266E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CheckXattrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckXattr.app/Contents/MacOS/CheckXattr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51EB0E01BC6DF8D004266E7 /* Build configuration list for PBXProject "CheckXattr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51EB1001BC6DF8D004266E7 /* Debug */,
+				B51EB1011BC6DF8D004266E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51EB1021BC6DF8D004266E7 /* Build configuration list for PBXNativeTarget "CheckXattr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51EB1031BC6DF8D004266E7 /* Debug */,
+				B51EB1041BC6DF8D004266E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B51EB1051BC6DF8D004266E7 /* Build configuration list for PBXNativeTarget "CheckXattrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51EB1061BC6DF8D004266E7 /* Debug */,
+				B51EB1071BC6DF8D004266E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51EB0DD1BC6DF8D004266E7 /* Project object */;
+}
